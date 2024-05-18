@@ -50,10 +50,6 @@ body {
   color: #C6B5FC;
 }
 
-#mainbox a:visited {
-  color: #DF87FF
-}
-
 #mainbox ul {
   list-style: none; /* Remove list bullets */
   padding: 0;
