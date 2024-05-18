@@ -1,0 +1,71 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+body {
+  background-image: url('space.gif');
+  background-size: 2160px 1428px;
+}
+
+#mainbox {
+  color: #A387FF;
+  font-family: "Gabarito", sans-serif;
+  background-color: #1D192B77;
+  border: 5px solid #A387FF;
+  border-radius: 12px;
+  padding: 4vh;
+}
+
+@media screen and (min-width: 900px) {
+  #mainbox {
+    width: 40%;
+    height: 40%;
+    margin: 10% auto 10% auto;
+    padding: 4vh;
+    word-wrap: break-word;
+  }
+}
+
+#mainbox h1,h2,h3 {
+  color: #D7CCFF;
+}
+
+#mainbox img {
+  border: 3px solid #A387FF;
+  border-radius: 100%;
+  transition: transform 750ms;
+}
+
+#mainbox img:hover {
+  transform: rotate(360deg);
+}
+
+#mainbox a {
+  color: #A387FF;
+  transition: color 250ms;
+}
+
+#mainbox a:hover {
+  color: #D7CCFF;
+}
+
+#mainbox a:visited {
+  color: #B7ACDF
+}
+
+#mainbox ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+#mainbox li {
+  padding-left: 12px;
+}
+
+#mainbox li::before {
+  content: "✦";
+  padding-right: 6px;
+  color: rgba(163,135,255,128);
+}
