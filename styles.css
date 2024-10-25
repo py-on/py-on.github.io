@@ -1,67 +1,58 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+/* gabarito my beloved */
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
-body {
-  background-image: url('space.gif');
-  background-size: 2160px 1428px;
-}
+/* mobile solid background */
+body { background-color: #0E0C15; }
 
+/* the real stuff */
 #mainbox {
+  /* basic text coloring/style */
   color: #A387FF;
   font-family: "Gabarito", sans-serif;
-  background-color: #1D192B77;
-  border: 5px solid #A387FF;
-  border-radius: 12px;
+  background-color: #0E0C15;
+  border: 0;
   padding: 4vh;
+  h1,h2,h3 { color: #D7CCFF; }
+  ul { list-style-type: "✦ "; }
+  /* logo silliness */
+  .logo {
+    width: 12vh;
+    height: 12vh;
+    border: 5px solid #A387FF;
+    border-radius: 100%;
+    transition: transform 750ms;
+    :hover { transform: rotate(360deg); }
+  }
+  /* link coloring */
+  a {
+    color: #cf87ff;
+    transition: color 250ms;
+    text-decoration: none;
+    :hover { color: #ebceff; }
+    svg {
+      width: 4vh;
+      height: 4vh;
+      padding: 0 2vh 0 0;
+      fill: #cf87ff;
+      transition: fill 250ms;
+      :hover { fill: #ebceff; }
+    }
+  }
 }
 
+/* desktop */
 @media screen and (min-width: 900px) {
+  body {
+    background-image: url('space.gif');
+    background-size: 2160px 1428px;
+  }
   #mainbox {
     width: 40%;
     height: 40%;
     margin: 10% auto 10% auto;
-    padding: 4vh;
     word-wrap: break-word;
+    border: 5px solid #A387FF;
+    border-radius: 20px;
   }
-}
-
-#mainbox h1,h2,h3 {
-  color: #D7CCFF;
-}
-
-#mainbox img {
-  border: 3px solid #A387FF;
-  border-radius: 100%;
-  transition: transform 750ms;
-}
-
-#mainbox img:hover {
-  transform: rotate(360deg);
-}
-
-#mainbox a {
-  color: #A387FF;
-  transition: color 250ms;
-}
-
-#mainbox a:hover {
-  color: #C6B5FC;
-}
-
-#mainbox ul {
-  list-style: none; /* Remove list bullets */
-  padding: 0;
-  margin: 0;
-}
-
-#mainbox li {
-  padding-left: 12px;
-}
-
-#mainbox li::before {
-  content: "✦";
-  padding-right: 6px;
-  color: rgba(163,135,255,128);
+  .sorry { display: none; }
 }
