@@ -1,10 +1,13 @@
 /* gabarito my beloved */
+
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
 /* mobile solid background */
+
 body { background-color: #0E0C15; }
 
 /* the real stuff */
+
 #mainbox {
   /* basic text coloring/style */
   color: #A387FF;
@@ -14,6 +17,7 @@ body { background-color: #0E0C15; }
   padding: 4vh;
   h1,h2,h3 { color: #D7CCFF; }
   ul { list-style-type: "✦ "; }
+  
   /* logo silliness */
   .logo {
     width: 12vh;
@@ -21,26 +25,28 @@ body { background-color: #0E0C15; }
     border: 5px solid #A387FF;
     border-radius: 100%;
     transition: transform 750ms;
-    :hover { transform: rotate(360deg); }
   }
+  .logo:hover { transform: rotate(360deg); }
+  
   /* link coloring */
   a {
     color: #cf87ff;
-    transition: color 250ms;
+    transition: color 0.3s ease;
     text-decoration: none;
-    :hover { color: #ebceff; }
     svg {
       width: 4vh;
       height: 4vh;
       padding: 0 2vh 0 0;
       fill: #cf87ff;
-      transition: fill 250ms;
-      :hover { fill: #ebceff; }
+      transition: fill 0.3s ease;
     }
+	svg:hover { fill: #ebceff; }
   }
+  a:hover { color: #ebceff; }
 }
 
 /* desktop */
+
 @media screen and (min-width: 900px) {
   body {
     background-image: url('space.gif');
