@@ -1,5 +1,4 @@
 # pyon's website
----
 my site is run through github pages because idk this is the easiest way for me to do it at the moment.
 
 nothing about this is professional at all, it's just to get me to a basic introduction and info site.
