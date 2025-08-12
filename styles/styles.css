@@ -4,24 +4,24 @@
 
 /* mobile solid background */
 
-body { background-color: #0E0C15; }
+body { background-color: hsl(255, 27%, 6%); }
 
 /* the real stuff */
 
 #mainbox {
   /* basic text coloring/style */
-  color: #A387FF;
+  color: hsl(255, 100%, 76%);
   font-family: "Gabarito", sans-serif;
-  background-color: #0E0C15;
+  background-color: hsl(255, 27%, 6%);
   padding: 4vh;
-  h1,h2,h3 { color: #D7CCFF; }
+  h1,h2,h3 { color: hsl(255, 100%, 90%); }
   ul { list-style-type: "✦ "; }
   
   /* logo silliness */
   .logo {
     width: 12vh;
     height: 12vh;
-    border: 5px solid #A387FF;
+    border: 5px solid hsl(255, 100%, 76%);
     border-radius: 100%;
     transition: transform 750ms;
   }
@@ -29,19 +29,19 @@ body { background-color: #0E0C15; }
   
   /* link coloring */
   a {
-    color: #cf87ff;
+    color: hsl(275, 100%, 76%);
     transition: color 0.3s ease;
     text-decoration: none;
     svg {
       width: 4vh;
       height: 4vh;
       padding: 0 2vh 0 0;
-      fill: #cf87ff;
+      fill: hsl(275, 100%, 76%);
       transition: fill 0.3s ease;
     }
-	svg:hover { fill: #ebceff; }
+	svg:hover { fill: hsl(275, 100%, 90%); }
   }
-  a:hover { color: #ebceff; }
+  a:hover { color: hsl(275, 100%, 90%); }
 }
 
 /* desktop */
@@ -56,7 +56,7 @@ body { background-color: #0E0C15; }
     height: 40%;
     margin: 10% auto 10% auto;
     word-wrap: break-word;
-    border: 5px solid #A387FF;
+    border: 5px solid hsl(255, 100%, 76%);
     border-radius: 20px;
   }
   .sorry { display: none; }

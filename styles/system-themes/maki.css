@@ -1,0 +1,30 @@
+#mainbox {
+  /* basic text coloring/style */
+  color: hsl(50, 100%, 76%);
+  background-color: hsl(50, 27%, 6%);
+  h1,h2,h3 { color: hsl(50, 100%, 90%); }
+  
+  /* logo silliness */
+  .logo {
+    border: 5px solid hsl(50, 100%, 76%);
+  }
+  
+  /* link coloring */
+  a {
+    color: hsl(30, 100%, 76%);
+    text-decoration: none;
+  }
+  a:hover { color: hsl(30, 100%, 90%); }
+}
+
+/* desktop */
+
+@media screen and (min-width: 900px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  #mainbox {
+    border: 5px solid hsl(50, 100%, 76%);
+  }
+}
