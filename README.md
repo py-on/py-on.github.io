@@ -8,4 +8,4 @@ i'm planning on rewriting the entire site in Astro, and redesigning it to fit my
   - **[latte.party](https://latte.party)**
   - [py-on.github.io (just a redirect)](https://py-on.github.io)
 ### if we're friends, feel free to add this badge to your page ^^
-![pyonlatte / latte.party badge](badge.png)
+![pyonlatte / latte.party badge](media/badge.png)
