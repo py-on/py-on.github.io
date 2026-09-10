@@ -1,4 +1,4 @@
-# THIS SITE HAS BEEN ABANDONED AND MOVED TO [HERE](https://whylowe.neocitites.org)
+# THIS SITE HAS BEEN ABANDONED AND MOVED TO [HERE](https://whylowe.neocities.org)
 my site is run through github pages because idk this is the easiest way for me to do it at the moment.
 
 nothing about this is professional at all, it's just to get me to a basic introduction, info, and a little sort of blog thing i guess.
